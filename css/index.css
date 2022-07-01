@@ -8,13 +8,20 @@
   --white: #fff;
 }
 
+/* Font */
+@font-face {
+  font-family: Renogare;
+  src: url("/fonts/Renogare-Regular.otf") format("opentype");
+}
+
+
 /* Global stylesheet */
 * {
   box-sizing: border-box;
 }
 
 html,
-body {
+body,.home {
   padding: 0;
   margin: 0;
   font-family: -apple-system, system-ui, sans-serif;
@@ -216,4 +223,21 @@ a[href].direct-link:focus:visited,
 :hover > a[href].direct-link,
 :hover > a[href].direct-link:visited {
   color: #aaa;
+}
+
+h1{
+  font-family: Renogare;
+}
+
+.post-title-bg{
+  background: url(/img/bg_fc_2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: white;
+}
+h1.post-title{
+  padding: 12rem;
+  font-size: 3.5em;
+  backdrop-filter: blur(4px);
 }
