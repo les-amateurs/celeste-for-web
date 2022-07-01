@@ -236,8 +236,10 @@ h1{
   text-align: center;
   color: white;
 }
+
 h1.post-title{
   padding: 12rem;
   font-size: 3.5em;
   backdrop-filter: blur(4px);
 }
+
