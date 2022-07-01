@@ -37,5 +37,5 @@ Remeber, FNA aims to be a better reimplementation of XNA!
 * The Vanilla game, obviously! I used the itch.io FNA version. Patching may have issues when basing off an XNA or Steam version. 
 
 (TODO: Yea I think this is good enough to be in another post)
-# Extract the source code.
-Simply open up ILSpy, open the Celeste.exe assembly, and then select everything and hit export code so it makes a project openable by Visual Studio. 
+# Extract the unmodified source code.
+Simply open up ILSpy, open the Celeste.exe assembly, and then select everything and hit export code so it makes a project openable by Visual Studio. Keep in mind at this point the project still uses .NET 4.5.2, while our target project uses .NET 5. I'll be providing another csproj for the web build. By the way, making the game run off .NET 5 actually requires absolutely no code modifacation. 
